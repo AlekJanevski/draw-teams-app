@@ -4,12 +4,12 @@
     
     <!-- Add user wrapper starts -->
     <div class="float-left w-1/2 h-full mb-3 border-r p-7">
-      <form name="add-user" method="post" @submit.prevent="addUser" class="flex flex-col items-start">
+      <form name="add-user" method="post" @submit.prevent="addUser">
         <!-- Add user input starts -->
         <input 
           v-model="userInput"
           type="text" 
-          placeholder="Enter player name"
+          placeholder="Placeholder"
           class="relative w-full max-w-md px-3 py-3 text-sm text-gray-700 placeholder-gray-400 bg-white border border-gray-400 rounded outline-none focus:outline-none focus:shadow-outline"
         />
         <!-- Add user input ends -->

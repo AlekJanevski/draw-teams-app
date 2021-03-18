@@ -4,13 +4,13 @@
     
     <!-- Add user wrapper starts -->
     <div class="float-left w-1/2 h-full mb-3 border-r p-7">
-      <form name="add-user" method="post" @submit.prevent="addUser" class="flex flex-col items-start">
+      <form name="add-user" method="post" @submit.prevent="addUser">
         <!-- Add user input starts -->
         <input 
           v-model="userInput"
           type="text" 
-          placeholder="Enter player name"
-          class="relative w-full max-w-md px-3 py-3 text-sm text-gray-700 placeholder-gray-400 bg-white border border-gray-400 rounded outline-none focus:outline-none focus:shadow-outline"
+          placeholder="Placeholder"
+          class="relative w-full px-3 py-3 text-sm text-gray-700 placeholder-gray-400 bg-white border border-gray-400 rounded outline-none focus:outline-none focus:shadow-outline"
         />
         <!-- Add user input ends -->
 
@@ -34,11 +34,11 @@
 
 
     <div class="flex flex-col items-center justify-center float-left w-1/2">
-      <span class="block mb-2 text-xl">Drawed teams</span>
-      <span>please press the button to draw teams</span>
-      <button class="float-right px-4 py-2 mt-6 mb-1 mr-1 text-xs font-bold text-white uppercase bg-blue-500 rounded shadow outline-none active:bg-blue-600 hover:shadow-md focus:outline-none" type="submit" style="transition: all .15s ease">
-        Draw teams
-      </button>
+        <span class="block mb-2 text-xl">Drawed teams</span>
+        <span>please press the button to draw teams</span>
+        <button class="float-right px-4 py-2 mt-6 mb-1 mr-1 text-xs font-bold text-white uppercase bg-blue-500 rounded shadow outline-none active:bg-blue-600 hover:shadow-md focus:outline-none" type="submit" style="transition: all .15s ease">
+          Draw teams
+        </button>
     </div>
 
   </div>
