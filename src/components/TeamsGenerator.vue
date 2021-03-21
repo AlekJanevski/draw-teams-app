@@ -188,7 +188,6 @@ export default {
       // Deactivate the loader
       setTimeout(()=>{
         this.loading = false
-        console.log('done')
       },1000)
 
       // Rerender the component
