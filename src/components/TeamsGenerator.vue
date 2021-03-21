@@ -189,7 +189,7 @@ export default {
       setTimeout(()=>{
         this.loading = false
         console.log('done')
-      },2000)
+      },1000)
 
       // Rerender the component
       this.$forceUpdate()
