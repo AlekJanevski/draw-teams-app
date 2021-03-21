@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <TeamsGenerator/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TeamsGenerator from './components/TeamsGenerator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TeamsGenerator
   }
 }
 </script>
